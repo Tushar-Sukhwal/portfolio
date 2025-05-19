@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 
@@ -27,11 +27,6 @@ export function TypewriterEffect({
   const [currentCharIndex, setCurrentCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
-
-  // Find the longest word to determine min-height
-  const longestWordLength = Math.max(
-    ...wordsArray.map((word) => word.text.length)
-  );
 
   useEffect(() => {
     const typingSpeed = isDeleting ? 30 : 60; // Faster typing and deleting speeds

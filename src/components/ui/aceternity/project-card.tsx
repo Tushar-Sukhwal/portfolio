@@ -9,7 +9,6 @@ import { useInView } from "framer-motion";
 import { ArrowUpRight, Github } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { LinkPreview } from "./link-preview";
 import { GlowingEffect } from "./glowing-effect";
 
 interface ProjectCardProps {

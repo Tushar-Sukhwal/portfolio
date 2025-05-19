@@ -74,7 +74,7 @@ export function LinkPreview({
     if (!isOpen || !previewRef.current) return;
 
     const previewRect = previewRef.current.getBoundingClientRect();
-    let updatedPosition = { ...position };
+    const updatedPosition = { ...position };
     let needsUpdate = false;
 
     // Check if the preview is outside the viewport
