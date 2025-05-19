@@ -3,9 +3,9 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 
 export const metadata: Metadata = {
-  title: "Your Name | Full Stack Engineer",
+  title: "Tushar Sukhwal",
   description:
-    "Full Stack Engineer with 6 years of experience. I enjoy building digital solutions to power your business.",
+    "This is my portfolio website.",
 };
 
 export default function RootLayout({
