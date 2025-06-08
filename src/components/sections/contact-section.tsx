@@ -59,10 +59,10 @@ export function ContactSection({ className }: ContactSectionProps) {
           <p className="text-muted-foreground text-center mb-8">
             Please contact me directly at{" "}
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:tusharsuk1234@gmail.com"
               className="text-primary underline"
             >
-              your.email@example.com
+              tusharsuk1234@gmail.com
             </a>{" "}
             or through this form.
           </p>

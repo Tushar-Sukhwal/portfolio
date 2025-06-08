@@ -30,7 +30,7 @@ const projects = [
       "React Email",
       "React Hot Toast",
     ],
-    imageUrl: "/projects/enigma.png",
+    imageUrl: "https://play.google.com/store/apps/details?id=fr.ownstudio.ietb&hl=en_IE",
     projectUrl: "https://teambuilde.tusharsukhwal.com",
     githubUrl: "https://github.com/Tushar-Sukhwal/Team-Builder",
   },
